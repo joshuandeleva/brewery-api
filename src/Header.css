@@ -1,0 +1,32 @@
+.searchInput {
+	display: flex;
+	justify-content: space-between;
+}
+.searchIput_type {
+	flex: 1;
+	margin-right: 10px;
+	height: 40px;
+	border-radius: 10px;
+	border: 0;
+}
+.beerTitle h1 {
+	text-align: center;
+	align-items: center;
+	color: white;
+	font-weight: 700px;
+}
+input:focus {
+	outline-width: 0 !important;
+}
+input::placeholder {
+	padding: 8px 8px;
+	font-weight: 700px;
+}
+.searchButton {
+	background-color: orange !important;
+	color: white !important;
+	border-radius: 10px !important;
+	padding: 10px 10px !important;
+	font-weight: 900 !important;
+	height: auto !important;
+}
